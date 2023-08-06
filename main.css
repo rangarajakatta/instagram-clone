@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: roboto mono;
+  background-color: black;
+}
+/* .transition-fade {
+  opacity: 1;
+  transition: 150ms;
+}
+html.is-animating .transition-fade {
+  opacity: 0;
+} */
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+}
+.icons {
+  height: 25px;
+  background: none;
+}
+.small-icons {
+  height: 15px;
+}
