@@ -1,0 +1,100 @@
+.my-profile-img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.profile-btn {
+  color: white;
+  background-color: rgb(55, 55, 55);
+  font-size: 14px;
+  padding: 7px 0px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: 0.2s;
+}
+.profile-btn:active {
+  transform: scale(0.9);
+}
+.posts-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.first-btn:active,
+.first-btn:hover {
+  border-bottom: 2.5px solid white;
+}
+.second-btn:active,
+.second-btn:hover {
+  border-bottom: 2.5px solid white;
+}
+.posts-grid{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.posts{
+  width: 32%;
+  aspect-ratio: 1/1;
+  border: 2px solid black;
+}
+.posts:active{
+  transform: scale(0.96);
+}
+.p1{
+  background-image: url('/images/post 1.png');
+  background-position: center;
+  background-size: cover;
+}
+.p2{
+  background-image: url('/images/post 2.png');
+  background-position: center;
+  background-size: cover;
+}
+.p3{
+  background-image: url('/images/post 3.png');
+  background-position: center;
+  background-size: cover;
+}
+.p4{
+  background-image: url('/images/post 4.png');
+  background-position: center;
+  background-size: cover;
+}
+.p5{
+  background-image: url('/images/post 5.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.p6{
+  background-image: url('/images/post 6.png');
+  background-position: center;
+  background-size: cover;
+}
+.p7{
+  background-image: url('/images/post 7.png');
+  background-position: center;
+  background-size: cover;
+}
+.p8{
+  background-image: url('/images/post 8.png');
+  background-position: center;
+  background-size: cover;
+}
+.p9{
+  background-image: url('/images/post 9.png');
+  background-position: center;
+  background-size: cover;
+}
+.p10{
+  background-image: url('/images/post 10.png');
+  background-position: center;
+  background-size: cover;
+}
+.p11{
+  visibility: hidden;
+}
